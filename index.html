@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="themify-icons/themify-icons.css">
+<link rel="stylesheet" href="asm4.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript Ajax GET Demo</title>
+<script src="asm4.js">
+</script>   
+</head>
+<body>
+    <header> <button onclick="modal()" id="find" > My News <i class="ti-search"></i> </button> </header>
+        <div id="modal"> 
+            <div id="modal-conten">
+                <button onclick="exitModal()" id="close"> X </button>
+                <form >
+                <b>Tìm kiếm:</b><input id="apost" type="text" value=""></br>
+                <b>Từ ngày:</b><input type="text" id="fromTime"  value="2021-01-01">
+                <b>Đến ngày:</b><input type="text" id="toTime"  value="2021-01-31"></br>
+                <input type="button" onclick="exit()" value=" Gửi" id="send" >
+                </form>
+            </div>
+        </div>
+        <div id="loading" >
+            <i class="ti-reload"></i>
+        </div>
+    <div id="result">
+       
+
+    </div>
+</body>
+</html><!DOCTYPE html>
